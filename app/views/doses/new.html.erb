@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1>Dose addition</h1>
+      <%= render 'form', dose: @dose, cocktail: @cocktail %>
+    </div>
+  </div>
+</div>
+
+
+<%= link_to 'Cancel', cocktail_path(@cocktail), class: "btn btn-primary" %>
